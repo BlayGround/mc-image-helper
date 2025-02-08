@@ -9,6 +9,7 @@ on:
 
 jobs:
   publish:
+    permissions: write-all
     uses: itzg/github-workflows/.github/workflows/gradle-build.yml@main
     with:
       arguments: >
